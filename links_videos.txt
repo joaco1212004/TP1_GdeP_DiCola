@@ -1,4 +1,4 @@
-Los links tambien estan al final del informe en un hipervinculo, pero si no los vieron, aca se los dejo:
+Los links tambien estan al final del informe en un hipervinculo y tambien estan en la carpeta videos adentro de la carpeta results, pero si no los vieron, aca se los dejo:
 
 CartPole-v1: https://drive.google.com/file/d/1qdyKshAR7WmJRvUL4Q11Dfq20Z9gGVZg/view?usp=sharing
 Acrobot-v1: https://drive.google.com/file/d/10hqO3azAimEzHf_PfwMzzzIWNAICHoGr/view?usp=sharing
