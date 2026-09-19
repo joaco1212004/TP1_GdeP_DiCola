@@ -16,3 +16,16 @@ class PolicyNetwork(nn.Module):
 
     def forward(self, x):
         return self.network(x)
+
+class ValueNetwork(nn.Module):
+    def __init__(self, input_dim):
+        super().__init__()
+
+        self.network = nn.Sequential(
+            nn.Linear(input_dim, 20),
+            nn.ELU(),
+            nn.Linear(20, 1),
+        )
+
+    def forward(self, x):
+        return self.network(x).squeeze(-1)
